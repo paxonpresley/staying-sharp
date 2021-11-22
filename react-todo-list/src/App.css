@@ -1,0 +1,57 @@
+:root {
+  --clr-black-1: rgb(33, 33, 33);
+  --clr-white-1: rgb(213, 213, 213);
+}
+
+*, ::before, ::after {
+  font-family: monospace;
+  margin: 0%;
+  padding: 0%;
+}
+
+/** START::App.js elements::START */
+
+.Todo-List-App {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/** END::App.js elements::END */
+/** START::TodoForm elements::START */
+
+/* return div of TodoForm */
+.todo-form-container {
+  
+}
+
+/* form element */
+.todo-form {
+  
+}
+
+/* input element */
+.todo-input {
+
+}
+
+/* button element */
+.todo-btn {
+
+}
+
+/** END::TodoForm elements::END */
+/** START::TodoList elements::START */
+
+/* main div element */
+.todolist-container {
+  
+}
+
+/* h1 element */
+.todolist-container,h1 {
+  
+}
+
+/** END::TodoList elements::END */

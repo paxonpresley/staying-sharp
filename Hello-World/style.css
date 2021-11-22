@@ -1,12 +1,56 @@
+:root {
+    --clr-black-1: rgb(34, 34, 34);
+    --clr-black-2: rgb(75, 75, 75);
+    --clr-black-3: rgb(55, 55, 55);
+    --clr-white-1: rgb(240, 240, 240);
+    --clr-neon-1: rgb(202, 242, 239);
+    --clr-neon-2:rgb(183, 211, 209);
+}
+
 ::before, ::after, html {
     margin: 0;
     font-family: monospace;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
+body {
+    height: 100vh;
+    justify-content: center;
+    background-color: var(--clr-black-1);
+}
+
+button {
+    height: 7vh;
+    width:10vh;
+    border: 3vh;
+    border-color: var(--clr-white-1);
+    color: var(--clr-neon-1);
+    background-color: var(--clr-black-2);
+}
+
+button:hover {
+    border-color: var(--clr-white-1);
+    background-color: var(--clr-black-3);
+    color: var(--clr-neon-2);
+    cursor: pointer;
+}
+
+.txt {
+    color: var(--clr-black-2);
+}
+
+.btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(48, 48, 48);
+    height: 25vh;
 }
 
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: var(--clr-neon-1);
+}
