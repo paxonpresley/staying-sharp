@@ -14,7 +14,7 @@ function TodoList() {
     }
 
     return <div className="todolist-container">
-        <h1>WHAT BRO</h1>
+        <h1>What are you doing today?</h1>
         <TodoForm onSubmit={addTodo} />
     </div>
 }

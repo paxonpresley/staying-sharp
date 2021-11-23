@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 function TodoForm() {
 
     const [input, setInput] = useState('');
+    const randomNumber = Math.floor(Math.randomNumber(1 - 1000000));
 
     const handleChange = e => {
         setInput(e.target.value);
@@ -12,7 +13,7 @@ function TodoForm() {
         e.preventDefault();
 
         props.onSubmit({
-            id: Math.floor(Math.random() = 10000000),
+            id: randomNumber,
             text: input
         });
         setInput('');
