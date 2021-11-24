@@ -1,4 +1,53 @@
+:root {
+  /* colors */
+  --bg-white: rgb(223, 223, 223); 
+  --bg-blue: rgb(188, 235, 219);
+}
+
 .App {
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   font-family: monospace;
+  background-color: var(--bg-white);
+}
+
+.Navbar {
+  background-color: var(--bg-blue);
+  width: 100vw;
+  min-height: 5rem;
+  height: 10%;
+  max-height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 15pt;
+  float: left;
+  margin-left: 8vw;
+  margin-right: 1rem;
+  font-family: Geneva;
+}
+
+input {
+  height: 2rem;
+  width: 30vw;
+  min-width: 5vw;
+  margin-right: .5rem;
+}
+
+.Btn-Container {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+  margin-right: 5vw;
+}
+
+button {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: .25rem;
+  margin-right: .25rem;
 }
