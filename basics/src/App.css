@@ -14,40 +14,59 @@
 
 .Navbar {
   background-color: var(--bg-blue);
-  width: 100vw;
-  min-height: 5rem;
+  min-height: 6rem;
   height: 10%;
   max-height: 10rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
-h1 {
+.Navbar h1 {
   font-size: 15pt;
   float: left;
-  margin-left: 8vw;
-  margin-right: 1rem;
   font-family: Geneva;
 }
 
-input {
+.Navbar input {
   height: 2rem;
   width: 30vw;
   min-width: 5vw;
   margin-right: .5rem;
 }
 
-.Btn-Container {
+.Navbar .Btn-Container {
   display: flex;
   width: 10rem;
-  justify-content: space-between;
-  margin-right: 5vw;
+  justify-content: space-around;
 }
 
-button {
+.Navbar button {
   height: 2.5rem;
   width: 2.5rem;
-  margin-left: .25rem;
-  margin-right: .25rem;
 }
+.Navbar button:hover {
+  cursor: pointer;
+}
+
+.Stories {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  align-items: center;
+  height: 5rem;
+  overflow: scroll;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Stories button {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+.Stories button:hover {
+  cursor: pointer;
+}
+
