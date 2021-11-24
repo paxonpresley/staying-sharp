@@ -16,6 +16,11 @@ function Stories() {
             <button></button>
             <button></button>
             <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
         </div>
      );
 }
