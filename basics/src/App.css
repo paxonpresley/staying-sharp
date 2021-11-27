@@ -54,16 +54,17 @@
 .Home {
   padding-top: 2rem;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .Home .Centering-Container {
-  display: contents;
+  min-width: 25rem;
+  width: 70vw;
 }
 
 .Stories {
   display: flex;
-  width: 60vw;
   align-items: center;
   height: 6.5rem;
   overflow-x: auto;
@@ -80,8 +81,44 @@
   cursor: pointer;
 }
 
-.Posts .Content-Container {
-  height: 50rem;
-  width: 60vw;
+.Posts {
+  margin-top: 1rem;
+}
+
+.Posts .Posts-Container {
+  height: 35rem;
   background-color: var(--bg-blue);
+  
+}
+
+.Posts-Container .Header-Container {
+  height: 3rem;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+}
+
+.Header-Container img {
+  height: 35px;
+  width: 35px;
+  margin: 1rem;
+}
+
+.Header-Container h3 {
+  letter-spacing: .05rem;
+}
+
+.Posts-Container #content {
+  height: 450px;
+  width: 100%;
+}
+
+.Function-Buttons button {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.Comments .Likes-Num {
+  display: flex;
+  margin-left: 1rem;
 }

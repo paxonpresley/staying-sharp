@@ -7,7 +7,7 @@ function Home() {
         <div className="Home">
             <div className="Centering-Container">
                 <Stories />
-                <Home />
+                <Posts />
             </div>
         </div>
      );
