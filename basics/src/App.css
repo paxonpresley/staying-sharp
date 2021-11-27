@@ -15,7 +15,7 @@
 }
 
 .Navbar {
-  background-color: var(--bg-blue);
+  /* bc color needed */
   min-height: 6rem;
   height: 10%;
   max-height: 10rem;
@@ -68,7 +68,7 @@
   align-items: center;
   height: 6.5rem;
   overflow-x: auto;
-  background-color: var(--bg-blue);
+  /* bc color needed */
 }
 
 .Stories button {
@@ -83,17 +83,17 @@
 
 .Posts {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .Posts .Posts-Container {
-  height: 35rem;
-  background-color: var(--bg-blue);
-  
+  height: 45rem;
+  /* bc color needed */
 }
 
 .Posts-Container .Header-Container {
   height: 3rem;
-  background-color: blueviolet;
+  /* bc color needed */
   display: flex;
   align-items: center;
 }
@@ -109,16 +109,70 @@
 }
 
 .Posts-Container #content {
-  height: 450px;
+  height: 100%;
   width: 100%;
+  max-height: 500px;
+}
+
+.Function-Buttons {
+  display: flex;
+  justify-content: baseline;
 }
 
 .Function-Buttons button {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  border-radius: 40%;
 }
 
-.Comments .Likes-Num {
+/* !  COMMENT GLOBAL ELEMENTS */
+.Comments .gHandle {
+  padding-left: 1rem;
+  padding-right: .5rem;
+  font-weight: 555;
+}
+
+.Comments .gCmt {
+  font-style: italic;
+  letter-spacing: .02rem;
+}
+
+.Comments .Likes-Num-Container {
   display: flex;
+  padding-left: 1rem;
+  height: 2rem;
+}
+
+.Likes-Num-Container .likes {
+  margin-left: .3rem;
+}
+
+.Creator-Cmt-Container {
+  height: 2rem;
+  /* bc color needed */
+  display: flex;
+  align-items: center;
+  font-size: 103%;
+}
+
+.Cmt-Section {
+  height: 4.5rem;
+  /* bc color needed */
+  overflow: hidden;
+  position: relative;
+}
+
+.Cmt-Section .Comments {
+  color: #000;
+  float: left;
   margin-left: 1rem;
+  font-size: small;
+}
+
+.Cmt-Section .Cmt-Container {
+  display: flex;
+  float: left;
+  font-size: smaller;
 }
