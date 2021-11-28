@@ -8,7 +8,7 @@ function Posts() {
     let creatorCmt = 'leave a like plz';
     let likesNum = '17,787';
 
-    let post = 
+    const post = 
         <div className="Posts-Container">
             {/* handle/profile */}
             <div className="Header-Container">
