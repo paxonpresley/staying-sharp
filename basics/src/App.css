@@ -1,7 +1,15 @@
 :root {
   /* colors */
-  --bg-white: rgb(223, 223, 223); 
-  --bg-blue: rgb(188, 235, 219);
+  --white: rgb(238, 238, 238);
+  --white-sec: rgb(157, 157, 157);
+  --aqua-lighter: #40C5E3;
+  --aqua-light: #3BB9D6;
+  --aqua-norm: #35A4BD;
+  --aqua-dark: #2A8396;
+  --aqua-darker: #184B57;
+  --orange-norm: #D6853C;
+  --orange-dark: #8A470B;
+  --red-dark: #A3351D;
 }
 
 .App {
@@ -11,11 +19,11 @@
   min-height: 100vh;
   text-align: center;
   font-family: monospace;
-  background-color: #ddd;
+  background-color: var(--white);
 }
 
 .Navbar {
-  /* bc color needed */
+  background-color: var(--aqua-norm);
   min-height: 6rem;
   height: 10%;
   max-height: 10rem;
@@ -61,14 +69,16 @@
 .Home .Centering-Container {
   min-width: 25rem;
   width: 70vw;
+  background-color: ;
 }
 
 .Stories {
+  background-color: var(--aqua-norm);
   display: flex;
   align-items: center;
   height: 6.5rem;
   overflow-x: auto;
-  /* bc color needed */
+  border-radius: 17%;
 }
 
 .Stories button {
