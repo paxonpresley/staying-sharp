@@ -3,7 +3,7 @@ import React from 'react';
 function Posts() {
 
     let profilePic = 'https://st2.depositphotos.com/1009634/7235/v/950/depositphotos_72350117-stock-illustration-no-user-profile-picture-hand.jpg';
-    let creatorHandle = 'personhandle';
+    let creatorHandle = 'ondrababy';
     let content = 'https://i1.sndcdn.com/artworks-000139136266-wj85p7-t500x500.jpg';
     let creatorCmt = 'leave a like plz';
     let likesNum = '17,787';
